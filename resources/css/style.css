@@ -1069,6 +1069,10 @@ header {
 
 /** FOOTER SECTION **/
 
+#footer {
+    background: #f8f8f8;
+}
+
 #footer h1 {
     text-transform: none;
     color: #cccccc;
@@ -1092,4 +1096,50 @@ header {
 #footer h3 span.number {
     font-size: 1.1rem;
     font-weight: bold;
+}
+
+#footer .social-media-link {
+    display: flex;
+    list-style: none;
+    padding: 0.5rem auto;
+    margin-top: 1rem;
+    border-top: 0.5px solid rgba(153, 153, 153, 0.25);
+}
+
+#footer .social-media-link li {
+    color: #999999;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+#footer .social-media-link li a {
+    color: #95e1d3;
+}
+
+#footer .social-media-link li:nth-child(1) {
+    margin: 0.1rem 0.5rem 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+#footer .newsletter-sub-form {
+    margin-top: 2rem;
+}
+
+#footer .newsletter-sub-form input {
+    background-color: #fff;
+    width: 69%;
+    padding: 0.4rem;
+    border: 0.5px solid rgba(153, 153, 153, 0.25);
+    border-radius: 2px;
+    margin-right: 0;
+}
+
+#footer .newsletter-sub-form button {
+    background: #95e1d3;
+    border-color: transparent;
+    padding: 0.4rem;
+    border-radius: 2px;
+    width: 30%;
+    margin-left: -1%;
 }
