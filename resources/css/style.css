@@ -1143,3 +1143,63 @@ header {
     width: 30%;
     margin-left: -1%;
 }
+
+#footer h4 {
+    font-size: 0.9rem;
+    color: #333333;
+    margin-top: 3rem;
+    text-transform: uppercase;
+}
+
+#footer .blog-posts {
+    margin-top: 3rem;
+}
+
+#footer .blog-post {
+    display: flex;
+    margin-top: 0.55rem;
+}
+
+#footer .blog-post .post-details {
+    margin-left: 0.9rem;
+}
+
+#footer .blog-post .post-title {
+    font-size: 0.8rem;
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+#footer .blog-post .post-date {
+    font-size: 0.7rem;
+    font-style: italic;
+    color: #999999;
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+}
+
+#footer .ig-img-gallery {
+    display: grid;
+    grid-template-rows: repeat(3, 90px);
+    grid-template-columns: repeat(3, 90px);
+    grid-row-gap: 0;
+    margin-top: 2.8rem;
+}
+
+#footer .ig-img-gallery ~ p {
+    margin-top: 0.5rem;
+}
+
+#footer .copyright-info {
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem auto;
+    border-top: 0.5px solid rgba(153, 153, 153, 0.25);
+}
+
+#footer .copyright-info .author {
+    color: #f38181;
+}
