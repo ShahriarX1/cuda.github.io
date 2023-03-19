@@ -1023,7 +1023,7 @@ header {
 }
 
 .map-comp {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     text-align: center;
     cursor: pointer;
 }
@@ -1037,6 +1037,11 @@ header {
     color: #f38181;
     font-size: 1.5rem;
     margin: 0.5rem auto;
+}
+
+#google-map h1::after {
+    background-color: #f38181;
+    margin-top: 20px;
 }
 
 /** MAP MODAL **/
@@ -1060,4 +1065,31 @@ header {
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.4);
+}
+
+/** FOOTER SECTION **/
+
+#footer h1 {
+    text-transform: none;
+    color: #cccccc;
+    font-size: 2.9rem;
+    margin-bottom: 0;
+}
+
+#footer p {
+    font-size: 0.8rem;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3rem;
+}
+
+#footer h3 {
+    font-size: 0.9rem;
+    color: #333333;
+    margin-top: 0;
+}
+
+#footer h3 span.number {
+    font-size: 1.1rem;
+    font-weight: bold;
 }
