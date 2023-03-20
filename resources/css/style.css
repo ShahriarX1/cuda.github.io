@@ -1142,6 +1142,7 @@ header {
     border-radius: 2px;
     width: 30%;
     margin-left: -1%;
+    cursor: pointer;
 }
 
 #footer h4 {
@@ -1164,12 +1165,17 @@ header {
     margin-left: 0.9rem;
 }
 
+#footer .blog-post .post-thumb {
+    cursor: pointer;
+}
+
 #footer .blog-post .post-title {
     font-size: 0.8rem;
     color: #333333;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 #footer .blog-post .post-date {
@@ -1186,6 +1192,10 @@ header {
     grid-template-columns: repeat(3, 90px);
     grid-row-gap: 0;
     margin-top: 2.8rem;
+}
+
+#footer .ig-img-gallery img {
+    cursor: pointer;
 }
 
 #footer .ig-img-gallery ~ p {
